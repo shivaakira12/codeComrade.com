@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <div class="logo">
+            <a href="index.html"><span>< </span>codeComrade<span> ></span></a>
+        </div>
+        <div class="nav-bar">
+            <div class="active">
+                <a href="">Learn JAVASCRIPT</a>
+            </div>
+            <a href="">Learn PHP</a>
+            <a href="">Resources</a>
+            <a href="">About</a>
+        </div>
+    </div>
+    <section>
+        <div class="js-container">
+            <div class="inside-js">
+                <div class="js-holder">
+                    <div class="headings">
+                        <div class="nav">
+                            <a href="javascript.html">1.INTRO</a>
+                            <a href="variable.html">2.VARIABLES</a>
+                            <a href="datatype.html">3.DATATYPES</a>
+                            <a href="operators.html">4.OPERATORS</a>
+                            <a href="conditionals.html">5.CONDITIONALS</a>
+                            <a href="loops.html">6.LOOPS</a>
+                            <a href="functions.html">7.FUNCTIONS</a>
+                            <a href="operators.html">8.STRINGS</a>
+                            <a href="conditionals.html">9.ARRAYS</a>
+                            <a href="loops.html">10.ADVANED JS</a>
+                        </div>
+
+                    </div>
+                    <div class="content">
+                        <h1>CONDITIONALS IN JAVASCRIPT</h1>
+
+                        <div class="inside-content">
+                            <p>Conditional statements in programming are used to check the condition if the condition is true then it will execute the statements.</p>
+                            <p>These are the below conditional statements we use in Javascript.</p>
+                            </p>
+                            <h2>If-statement :</h2>
+                            <p>If-statement checks the condition if the condition is true it executes the statements and gives the output.</p>
+                            <div class="syntax8">
+                                <p>var number = 5<br>if( number<10){ <br>console.log("Yes number is less than 10)<br>}</p>
+                            </div>
+                            <p>Output </p>
+                            <div class="output5">
+                                <p>Yes number is less than 10</p>
+                            </div>
+                            <p>So here the number is 5 we declared and assigned and in if-block we are checking the condition if number<10 it is true right so it will executed the statement Yes the number is lesser than 10</p>
+                            <h2>else-statement :</h2>
+                            <p>Else statement executes the statement in else block when the if condition becomes false.</p>
+                            <div class="syntax9">
+                                <p>var name = "codeComrade"<br>if( name == "codeComrade"){ <br>console.log(`Say hi to ${name}`)<br>}<br>else {<br>console.log(`Say No to ${name}`)<br>}
+                                </p>
+                            </div>
+                            <p>Output </p>
+                            <div class="output6">
+                                <p>Say hi to codeComrade</p>
+                            </div>
+                            <p>So here the output is Say bye to Codcomrade because the else block condition is not true i.e, myName variable is having “codComrade” and in if - block the condition is “codComrade==codeComrade” both are not same.</p>
+
+                            <h2>Switch case :</h2>
+                            <p>Switch case is used to select one case from multiple cases.</p> 
+                            <div class="syntax10">
+                                <p>const  a = 10 ; b = 20 ; c = 30 ;<br>var ch = 3 ;<br>switch(ch){<br>case 1 :<br>console.log(a+b+c)<br>break;<br>case 2 :<br>console.log(a-b-c)<br>break;<br>case 3 :<br>console.log(a*b*c)<br>break;<br>default :<br>console.log("Invalid choice")<br>}</p>
+                            </div>
+                            <p>Output </p>
+                            <div class="output7">
+                                <p>600</p>
+                            </div>
+
+                            <h2> Conditional(Ternary Operator)in Javascript :</h2>
+                            <p>It is the only operator in javascript which takes three operands.</p> <br>
+                            <p>Program without Ternary operator :</p>
+                            <div class="syntax11">
+                                <p>var age = 20 <br> if(age>=18)<br>{<br>console.log("You're eligible for voting")<br>}<br>esle<br>{<br>console.log("You're NOT eligible for voting")<br>}</p>
+                            </div>
+                            <p>Output </p>
+                            <div class="output8">
+                                <p>You're eligible for voting</p>
+                            </div>
+                            <p>MAGIC of Ternary operator </p>
+                            <div class="syntax12">
+                                <p>var age = 20 console.log(age>=18)? "You're eligible for voting": "You're NOT eligible for voting"</p>
+                            </div>
+                            <p>Output </p>
+                            <div class="output9">
+                                <p>You're eligible for voting</p>
+                            </div>
+                            <div class="programs">
+                                <h3>Practice these programs on Javascript conditionals</h3>
+                                <p>1. Write a Javascript program to find the greatest numbers of three.</p>
+                                <p>2. Write a Javascript program to check leap year or not.</p>
+                                <p>3. Write a Javascript program to find the given number is Even , odd  using conditionals statement.</p>
+                                <p>4. Write a Javascript program to find the positive , negative number using conditionals statement.</p>
+                            </div>
+                        <div class="buttons">
+                            <a href="operators.html">Previous</a>
+                            <a href="loops.html">Next</a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <div class="footer">
+        <div class="inside-footer">
+            <div class="logo2">
+                <a href="index.html"><span>< </span>codeComrade<span> ></span></a>
+            </div>
+            <div class="nav2">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="javascript.html">Javascript</a>
+                <a href="php.html">Php</a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

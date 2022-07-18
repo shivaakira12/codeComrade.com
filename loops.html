@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="header">
+        <div class="logo">
+            <a href="index.html"><span>
+                    < </span>codeComrade<span> ></span></a>
+        </div>
+        <div class="nav-bar">
+            <div class="active">
+                <a href="">Learn JAVASCRIPT</a>
+            </div>
+            <a href="">Learn PHP</a>
+            <a href="">Resources</a>
+            <a href="">About</a>
+        </div>
+    </div>
+    <section>
+        <div class="js-container">
+            <div class="inside-js">
+                <div class="js-holder">
+                    <div class="headings">
+                        <div class="nav">
+                            <a href="javascript.html">1.INTRO</a>
+                            <a href="variable.html">2.VARIABLES</a>
+                            <a href="datatype.html">3.DATATYPES</a>
+                            <a href="operators.html">4.OPERATORS</a>
+                            <a href="conditionals.html">5.CONDITIONALS</a>
+                            <a href="loops.html">6.LOOPS</a>
+                            <a href="functions.html">7.FUNCTIONS</a>
+                            <a href="operators.html">8.STRINGS</a>
+                            <a href="conditionals.html">9.ARRAYS</a>
+                            <a href="loops.html">10.ADVANED JS</a>
+                        </div>
+
+                    </div>
+                    <div class="content">
+                        <h1>LOOPS IN JAVASCRIPT</h1>
+
+                        <div class="inside-content">
+                            <p>Let’s consider a situation to write the even numbers upto 100.It is easy right and lets
+                                consider the same situation but we need to write the even numbers upto 100000 it quite
+                                difficult right.In programming we have loops for doing the repeated tasks.
+                            </p>
+
+                            <h2>Why we use loops in programming ?</h2>
+                            <p>1.Loops is needed to execute the code as many times.</p>
+                            <p>2.Helps to reduce the many lines of code.</p>
+                            <p>Makes programs less complex.</p>
+                            <h2>Types of Loops in Javascript :</h2>
+                            <p>(1) while - loop</p>
+                            <p>(2) for - loop</p>
+                            <p>(3) for - in loop</p>
+                            <p>(4) do-while loop</p>
+                            <h2>While - loop :</h2>
+                            <p>A While loop is block of statements that will repeat executing over and over until a
+                                condition associated with the while loop fails.</p>
+                            <div class="syntax13">
+                                <p>var number = 0 <br> while ( number >=10
+                                    )<br>{<br>console.log(number)<br>number++<br>}</p>
+                            </div>
+                            <p>Output </p>
+                            <div class="output10">
+                                <p>0<br>1<br>2<br>3<br>4<br>5<br>6<br>7<br>8<br>9<br></p>
+                            </div>
+
+                            <h2>For - loop :</h2>
+                            <p>A for loop is useful when we know how many times a task is to be repeated.</p>
+                            <div class="syntax14">
+                                <p>for (var number = 0 ; number >= 10 ; number++)<br> {<br>console.log(number)<br>}</p>
+                            </div>
+                            <p>Output </p>
+                            <div class="output11">
+                                <p>0<br>1<br>2<br>3<br>4<br>5<br>6<br>7<br>8<br>9<br></p>
+                            </div>
+
+
+                            <h2>For - in loop :</h2>
+                            <p>The for - in statement loops through the properties of object.</p>
+                            <div class="syntax15">
+                                <p> const person= {
+                                    firstName : “Code”,<br>
+                                    lastName : “comrade”,<br>
+                                    age : 23,<br>
+                                    email : “123@gmail.com"
+                                    } <br>for ( var key in person ){<br>
+                                    console.log ( person [ key ] );<br>
+                                    }</p>
+                            </div>
+                            <p>Output </p>
+                            <div class="output12">
+                                <p> Code<br>
+                                    comrade<br>
+                                    23<br>
+                                    123@gmail.com</p>
+                            </div>
+
+                            <h2>do - while loop :</h2>
+                            <p>This loop will execute the code block once, before checking if the condition is true,
+                                then it will repeat the loop as long as the condition is true.
+                            </p>
+                            <div class="syntax16">
+                                <p>var a=0 <br>do<br>{<br>console.log(a++)<br>}while(a>=10) </p>
+                            </div>
+                            <p>Output </p>
+                            <div class="output13">
+                                <p>0<br>1<br>2<br>3<br>4<br>5<br>6<br>7<br>8<br>9<br></p>
+                            </div>
+
+
+                            <div class="programs">
+                                <h3>Practice these programs on Javascript Loops</h3>
+                                <p>1. Write a Javascript program to check the given number is prime or not.</p>
+                                <p>2. Write a Javascript program to check the given number is amrstrong or not.</p>
+                                <p>3. Write a Javascript program to reverse a number.</p>
+                                <p>4. Write a Javascript program to check given number is palindrome or not.</p>
+                            </div>
+                            <div class="buttons">
+                                <a href="operators.html">Previous</a>
+                                <a href="loops.html">Next</a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="footer">
+        <div class="inside-footer">
+            <div class="logo2">
+                <a href="index.html"><span>
+                        < </span>codeComrade<span> ></span></a>
+            </div>
+            <div class="nav2">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="javascript.html">Javascript</a>
+                <a href="php.html">Php</a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

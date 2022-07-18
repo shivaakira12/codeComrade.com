@@ -1,0 +1,639 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+}
+html {
+    scroll-behavior: smooth;
+    font-size: 65.2%;
+}
+
+.header {
+    position: static;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: #000;
+    height: 12vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .logo {
+    padding: 2rem 5%;
+}
+
+.header .logo a {
+    color: #ffff;
+    font-size: 3rem;
+}
+
+.header .logo a span {
+    color: rgb(232, 232, 10);
+}
+
+.header .nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.header .nav-bar a {
+    font-size: 1.8rem;
+    padding: 10px 30px;
+    color: #ffff;
+}
+
+.header .nav-bar .active a {
+    background-color: rgb(232, 232, 10);
+    color: #000;
+}
+
+.home-container {
+    height: 88vh;
+    position: relative;
+    width: 100%;
+    background-color: rgb(232, 232, 10);
+}
+
+.home-container .inside-home {
+    display: flex;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    left: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-container .inside-home .home-holder h1 {
+    font-size: 10rem;
+}
+
+.home-container .inside-home .home-holder p {
+    background-color: #000;
+    color: #ffff;
+    width: 25%;
+    font-size: 2rem;
+    padding: 5px;
+    font-weight: 900;
+    letter-spacing: 3px;
+}
+
+.home-container .inside-home .home-holder h4 {
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+.home-container .inside-home .home-holder .btn1 {
+    margin-top: 30px;
+}
+
+.home-container .inside-home .home-holder .btn1 a {
+    background-color: rgb(24, 24, 24);
+    padding: 10px 20px;
+    color: #ffff;
+    font-size: 1.8rem;
+}
+
+/*JAVASCRIPT SECTION*/
+.js-container {
+    background-color: rgb(12, 12, 21);
+    width: 100%;
+    height: 100%;
+}
+.js-container span{
+    color: rgb(232, 232, 10);
+    
+}
+
+.js-container .inside-js .js-holder {
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.js-container .inside-js .js-holder .headings {
+    position: fixed;
+    top: 30%;
+    right: 0;
+    left: 10%;
+}
+
+.js-container .inside-js .js-holder .headings .nav a {
+    display: block;
+    padding: 10px;
+    color: #fff;
+    font-size: 1.5rem;
+    max-width: 150px;
+}
+
+.js-container .inside-js .js-holder .headings .nav a:hover {
+    color: rgb(232, 232, 10);
+}
+
+.js-container .inside-js .js-holder .content {
+    padding: 150px;
+    max-width: 1000px;
+    margin-left: 400px;
+}
+
+.js-container .inside-js .js-holder .content h1 {
+    font-size: 7rem;
+    color: #fff;
+}
+.js-container .inside-js .js-holder .content .inside-content h2 {
+    color: #fff;
+    font-size: 3rem;
+    font-weight: 100;
+    margin-top: 70px;
+}
+
+.js-container .inside-js .js-holder .content .inside-content p {
+    color: #fff;
+    font-size: 1.7rem;
+    font-weight: 100;
+    margin-top: 20px;
+    line-height: 2;
+}
+
+.js-container .inside-js .js-holder .content .inside-content ol li {
+    color: #fff;
+    font-size: 1.7rem;
+    line-height: 2;
+
+}
+
+.js-container .inside-js .js-holder .content .inside-content ol {
+    padding: 30px;
+}
+
+.js-container .inside-js .js-holder .content .inside-content .syntax {
+    height: 10vh;
+    width: 100%;
+    background-color: #fff;
+}
+
+.js-container .inside-js .js-holder .content .inside-content .syntax1 {
+    height: 22vh;
+    width: 100%;
+    background-color: #fff;
+}
+
+.js-container .inside-js .js-holder .content .inside-content .syntax1 p {
+    color: #000;
+    padding: 20px;
+}
+
+.js-container .inside-js .js-holder .content .inside-content .syntax p {
+    color: #000;
+    padding: 20px;
+}
+
+.js-container .inside-js .js-holder .content .buttons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.js-container .inside-js .js-holder .content .buttons a {
+    background-color: rgb(232, 232, 10);
+    padding: 10px 20px;
+    color: #000;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.js-container .inside-js .js-holder .content .inside-content .syntax3 {
+    height: 40vh;
+    width: 100%;
+    background-color: #fff;
+}
+
+.js-container .inside-js .js-holder .content .inside-content .syntax3 p {
+    color: #000;
+    padding: 20px;
+}
+
+.js-container .inside-js .js-holder .content .inside-content .output {
+    height: 25vh;
+    width: 100%;
+    background-color: #fff;
+}
+
+.js-container .inside-js .js-holder .content .inside-content .output p {
+    color: #000;
+    padding: 20px;
+}
+
+.js-container .inside-js .js-holder .content .inside-content .syntax4 {
+    height: 35vh;
+    width: 100%;
+    background-color: #fff;
+}
+
+.js-container .inside-js .js-holder .content .inside-content .syntax4 p {
+    color: #000;
+    padding: 20px;
+}
+
+.js-container .inside-js .js-holder .content .inside-content .output1 {
+    height: 27vh;
+    width: 100%;
+    background-color: #fff;
+}
+
+.js-container .inside-js .js-holder .content .inside-content .output1 p {
+    color: #000;
+    padding: 20px;
+}
+
+.js-container .inside-js .js-holder .content .inside-content .syntax5 {
+    height: 50vh;
+    width: 100%;
+    background-color: #fff;
+}
+
+.js-container .inside-js .js-holder .content .inside-content .syntax5 p {
+    color: #000;
+    padding: 20px;
+}
+
+.js-container .inside-js .js-holder .content .inside-content .output2 {
+    height: 40vh;
+    width: 100%;
+    background-color: #fff;
+}
+
+.js-container .inside-js .js-holder .content .inside-content .output2 p {
+    color: #000;
+    padding: 20px;
+}
+
+.js-container .inside-js .js-holder .content .inside-content .syntax6 {
+    height: 40vh;
+    width: 100%;
+    background-color: #fff;
+}
+
+.js-container .inside-js .js-holder .content .inside-content .syntax6 p {
+    color: #000;
+    padding: 20px;
+}
+
+.js-container .inside-js .js-holder .content .inside-content .output3 {
+    height: 30vh;
+    width: 100%;
+    background-color: #fff;
+}
+
+.js-container .inside-js .js-holder .content .inside-content .output3 p {
+    color: #000;
+    padding: 20px;
+}
+
+.js-container .inside-js .js-holder .content .inside-content .syntax7 {
+    height: 40vh;
+    width: 100%;
+    background-color: #fff;
+}
+
+.js-container .inside-js .js-holder .content .inside-content .syntax7 p {
+    color: #000;
+    padding: 20px;
+}
+
+.js-container .inside-js .js-holder .content .inside-content .output4 {
+    height: 30vh;
+    width: 100%;
+    background-color: #fff;
+}
+
+.js-container .inside-js .js-holder .content .inside-content .output4 p {
+    color: #000;
+    padding: 20px;
+}
+
+.js-container .inside-js .js-holder .content .inside-content .syntax8 {
+    height: 25vh;
+    width: 100%;
+    background-color: #fff;
+}
+
+.js-container .inside-js .js-holder .content .inside-content .syntax8 p {
+    color: #000;
+    padding: 20px;
+}
+
+.js-container .inside-js .js-holder .content .inside-content .output5 {
+    height: 10vh;
+    width: 100%;
+    background-color: #fff;
+}
+
+.js-container .inside-js .js-holder .content .inside-content .output5 p {
+    color: #000;
+    padding: 20px;
+}
+
+.js-container .inside-js .js-holder .content .inside-content .syntax9 {
+    height: 35vh;
+    width: 100%;
+    background-color: #fff;
+}
+
+.js-container .inside-js .js-holder .content .inside-content .syntax9 p {
+    color: #000;
+    padding: 20px;
+}
+
+.js-container .inside-js .js-holder .content .inside-content .output6 {
+    height: 10vh;
+    width: 100%;
+    background-color: #fff;
+}
+
+.js-container .inside-js .js-holder .content .inside-content .output6 p {
+    color: #000;
+    padding: 20px;
+}
+
+.js-container .inside-js .js-holder .content .inside-content .syntax10 {
+    height: 75vh;
+    width: 100%;
+    background-color: #fff;
+}
+
+.js-container .inside-js .js-holder .content .inside-content .syntax10 p {
+    color: #000;
+    padding: 20px;
+}
+
+.js-container .inside-js .js-holder .content .inside-content .output7 {
+    height: 10vh;
+    width: 100%;
+    background-color: #fff;
+}
+
+.js-container .inside-js .js-holder .content .inside-content .output7 p {
+    color: #000;
+    padding: 20px;
+}
+
+.js-container .inside-js .js-holder .content .inside-content .syntax11 {
+    height: 42vh;
+    width: 100%;
+    background-color: #fff;
+}
+
+.js-container .inside-js .js-holder .content .inside-content .syntax11 p {
+    color: #000;
+    padding: 20px;
+}
+
+.js-container .inside-js .js-holder .content .inside-content .output8 {
+    height: 10vh;
+    width: 100%;
+    background-color: #fff;
+}
+
+.js-container .inside-js .js-holder .content .inside-content .output8 p {
+    color: #000;
+    padding: 20px;
+}
+
+.js-container .inside-js .js-holder .content .inside-content .syntax12 {
+    height: 15vh;
+    width: 100%;
+    background-color: #fff;
+}
+
+.js-container .inside-js .js-holder .content .inside-content .syntax12 p {
+    color: #000;
+    padding: 20px;
+}
+
+.js-container .inside-js .js-holder .content .inside-content .output9 {
+    height: 10vh;
+    width: 100%;
+    background-color: #fff;
+}
+
+.js-container .inside-js .js-holder .content .inside-content .output9 p {
+    color: #000;
+    padding: 20px;
+}
+
+.js-container .inside-js .js-holder .content .inside-content .syntax13 {
+    height: 30vh;
+    width: 100%;
+    background-color: #fff;
+}
+
+.js-container .inside-js .js-holder .content .inside-content .syntax13 p {
+    color: #000;
+    padding: 20px;
+}
+
+.js-container .inside-js .js-holder .content .inside-content .output10 {
+    height: 50vh;
+    width: 100%;
+    background-color: #fff;
+}
+
+.js-container .inside-js .js-holder .content .inside-content .output10 p {
+    color: #000;
+    padding: 20px;
+}
+
+.js-container .inside-js .js-holder .content .inside-content .syntax14 {
+    height: 25vh;
+    width: 100%;
+    background-color: #fff;
+}
+
+.js-container .inside-js .js-holder .content .inside-content .syntax14 p {
+    color: #000;
+    padding: 20px;
+}
+
+.js-container .inside-js .js-holder .content .inside-content .output11 {
+    height: 50vh;
+    width: 100%;
+    background-color: #fff;
+}
+
+.js-container .inside-js .js-holder .content .inside-content .output11 p {
+    color: #000;
+    padding: 20px;
+}
+
+.js-container .inside-js .js-holder .content .inside-content .syntax15 {
+    height: 40vh;
+    width: 100%;
+    background-color: #fff;
+}
+
+.js-container .inside-js .js-holder .content .inside-content .syntax15 p {
+    color: #000;
+    padding: 20px;
+}
+
+.js-container .inside-js .js-holder .content .inside-content .output12 {
+    height: 25vh;
+    width: 100%;
+    background-color: #fff;
+}
+
+.js-container .inside-js .js-holder .content .inside-content .output12 p {
+    color: #000;
+    padding: 20px;
+}
+
+.js-container .inside-js .js-holder .content .inside-content .syntax16 {
+    height: 30vh;
+    width: 100%;
+    background-color: #fff;
+}
+
+.js-container .inside-js .js-holder .content .inside-content .syntax16 p {
+    color: #000;
+    padding: 20px;
+}
+
+.js-container .inside-js .js-holder .content .inside-content .output13 {
+    height: 50vh;
+    width: 100%;
+    background-color: #fff;
+}
+
+.js-container .inside-js .js-holder .content .inside-content .output13 p {
+    color: #000;
+    padding: 20px;
+}
+
+
+
+.js-container .inside-js .js-holder .content .inside-content .syntax17 {
+    height: 20vh;
+    width: 100%;
+    background-color: #fff;
+}
+
+.js-container .inside-js .js-holder .content .inside-content .syntax17 p {
+    color: #000;
+    padding: 20px;
+}
+
+.js-container .inside-js .js-holder .content .inside-content .output14 {
+    height: 50vh;
+    width: 100%;
+    background-color: #fff;
+}
+
+.js-container .inside-js .js-holder .content .inside-content .output14 p {
+    color: #000;
+    padding: 20px;
+}
+
+.js-container .inside-js .js-holder .content .inside-content .syntax18 {
+    height: 40vh;
+    width: 100%;
+    background-color: #fff;
+}
+
+.js-container .inside-js .js-holder .content .inside-content .syntax18 p {
+    color: #000;
+    padding: 20px;
+}
+
+.js-container .inside-js .js-holder .content .inside-content .output14 {
+    height: 10vh;
+    width: 100%;
+    background-color: #fff;
+}
+
+.js-container .inside-js .js-holder .content .inside-content .output14 p {
+    color: #000;
+    padding: 20px;
+}
+
+.js-container .inside-js .js-holder .content .inside-content .syntax19 {
+    height: 50vh;
+    width: 100%;
+    background-color: #fff;
+}
+
+.js-container .inside-js .js-holder .content .inside-content .syntax19 p {
+    color: #000;
+    padding: 20px;
+}
+
+.js-container .inside-js .js-holder .content .inside-content .output14 {
+    height: 10vh;
+    width: 100%;
+    background-color: #fff;
+}
+
+.js-container .inside-js .js-holder .content .inside-content .output14 p {
+    color: #000;
+    padding: 20px;
+}
+
+
+
+
+
+.programs h3 {
+    font-size: 1.8rem;
+    margin-top: 70px;
+    color: #fff;
+    font-weight: 100;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer {
+    height: 8vh;
+    background-color: #000;
+}
+.footer .inside-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 5%;
+}
+
+.footer .inside-footer .nav2 a{
+    padding: 10px;
+    color: #fff;
+    font-size: 1.2rem;
+}
+.footer .inside-footer .logo2 a{
+    color: #fff;
+    font-size: 1.2rem;
+}
+.footer .inside-footer .logo2 a span{
+    color: rgb(232, 232, 10);
+}
